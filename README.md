@@ -39,9 +39,7 @@ $$
 sen(\theta) = \frac{e^{j\theta} - e^{-j\theta}}{2j}
 $$
 
-
 , temos então
-
 
 $$
 h[n] = \frac{1}{2\pi} \int_{-\infty}^{\infty} H(\omega) e^{j\omega n} d\omega
@@ -280,7 +278,7 @@ O parâmetro $\beta$ foi determinado como uma função da atenuação, empiricam
 
 $$
 \beta(A) = \begin{cases} 0.1102(A-8.7), & \text{se }  A > 50 \\ 
-0.5842(A-21)^0.4 + 0.07886(A-21), & \text{se} \ 21 \leq A \leq 50   \\
+0.5842(A-21)^{0.4} + 0.07886(A-21), & \text{se} \ 21 \leq A \leq 50   \\
 0, \ \text{se} \ A<21   
 \end{cases}
 $$
