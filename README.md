@@ -160,8 +160,7 @@ $$
 como essa resposta em frequência é zero em todos os pontos excluindo os pontos entre as frequências de corte, temos:
 
 $$
-h[n] = \frac{1}{2\pi} \int_{-\omega_2}^{-\omega_1} e^{j\omega n} d\omega
-+ \frac{1}{2\pi} \int_{\omega_1}^{\omega_2} e^{j\omega n} d\omega = \frac{1}{2\pi} ( \left. \frac{e^{j\omega n}}{jn} \right|_{-\omega_2}^{-\omega_1} + \left. \frac{e^{j\omega n}}{jn} \right|_{\omega_1}^{\omega_2})
+h[n] = \frac{1}{2\pi} \int_{-\omega_2}^{-\omega_1} e^{j\omega n} d\omega + \frac{1}{2\pi} \int_{\omega_1}^{\omega_2} e^{j\omega n} d\omega = \frac{1}{2\pi} ( \left. \frac{e^{j\omega n}}{jn} \right|_{-\omega_2}^{-\omega_1} + \left. \frac{e^{j\omega n}}{jn} \right|_{\omega_1}^{\omega_2})
 $$
 
 avaliando nos limites de integração
