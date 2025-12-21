@@ -34,12 +34,7 @@ $$
 \int_{-\omega_c}^{\omega_c} e^{j\omega n} d\omega =  \left. \frac{e^{j\omega n}}{jn} \right|_{-\omega_c}^{\omega_c} = \frac{e^{j\omega_c n}}{jn} - \frac{e^{-j\omega_c n}}{jn} = \frac{e^{j\omega_c n} - e^{-j\omega_c n}}{jn}
 $$
 
-utilizando a identidade de Euler
-$$
-sen(\theta) = \frac{e^{j\theta} - e^{-j\theta}}{2j}
-$$
-
-, temos então
+utilizando a identidade de Euler, $sen(\theta) = \frac{e^{j\theta} - e^{-j\theta}}{2j}$ , temos então
 
 $$
 h[n] = \frac{1}{2\pi} \int_{-\infty}^{\infty} H(\omega) e^{j\omega n} d\omega
