@@ -78,8 +78,7 @@ porém essa integral pode ser separada em duas parcelas, uma de menos infinito a
 
 
 $$
-h[n] = \frac{1}{2\pi} \int_{-\infty}^{-\omega_c} e^{j\omega n} d\omega
-+ \frac{1}{2\pi} \int_{\omega_c}^{\infty} e^{j\omega n} d\omega
+h[n] = \frac{1}{2\pi} \int_{-\infty}^{-\omega_c} e^{j\omega n} d\omega + \frac{1}{2\pi} \int_{\omega_c}^{\infty} e^{j\omega n} d\omega
 $$
 
 
